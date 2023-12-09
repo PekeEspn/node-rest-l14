@@ -2,25 +2,29 @@ const express = require('express');
 const app = express();
 const puerto = 80;
 
-const MenusController =require('./controllers/MenusController');
+const UsuariosController =require('./controllers/UsuariosController');
 app.use(express.json());
-app.get('/menus', MenusController.indexGet);
-app.get('/menus/:id([0-9]+)', MenusController.itemGet);
+app.get('/usuarios', UsuariosController.indexGet);
+app.get('/usuarios/:id([0-9]+)', UsuariosController.itemGet);
+app.post('/usuarios', UsuariosController.indexPost);
 
-const CategoriasController =require('./controllers/CategoriasController');
+const ServiciosController =require('./controllers/ServiciosController');
 app.use(express.json());
-app.get('/categorias', CategoriasController.indexGet);
-app.get('/categorias/:id([0-9]+)', CategoriasController.itemGet);
+app.get('/servicios', ServiciosController.indexGet);
+app.get('/servicios/:id([0-9]+)', ServiciosController.itemGet);
+app.post('/servicios', ServiciosController.indexPost);
 
-const ProductosController =require('./controllers/ProductosController');
+const VehiculosController =require('./controllers/VehiculosController');
 app.use(express.json());
-app.get('/productos', ProductosController.indexGet);
-app.get('/productos/:id([0-9]+)', ProductosController.itemGet);
+app.get('/vehiculos', VehiculosController.indexGet);
+app.get('/vehiculos/:id([0-9]+)', VehiculosController.itemGet);
+app.post('/vehiculos', VehiculosController.indexPost);
 
-const ProductosTiposController =require('./controllers/ProductosTiposController');
+const VentasController =require('./controllers/VentasController');
 app.use(express.json());
-app.get('/productos_tipos', ProductosTiposController.indexGet);
-app.get('/productos_tipos/:id([0-9]+)', ProductosTiposController.itemGet);
+app.get('/ventas', VentasController.indexGet);
+app.get('/ventas/:id([0-9]+)', VentasController.itemGet);
+app.post('/ventas', VentasController.indexPost);
 
 app.get('/', function(req,res){
     res.statusCode=200;
