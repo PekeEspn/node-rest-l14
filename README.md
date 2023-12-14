@@ -1,3 +1,7 @@
+Mi proyecto se centra en una aplicación donde te da asistencia mecánica , esta aplicación cuenta también con venta de carros y de autopartes , me gustaría hacer como un tipo mapa donde piques un botón y llegue el mecánico más cerca que esta de ti para poder darle servicio a tu carro.
+
+Este proyecto se me hace muy prometedor ya que para mi parecer no hay nada similar entonces tendría un buen impacto y respuesta si es que se logra popularizar.
+
 # API RESTful con Node.js
 
 Proyecto de demostración para clases de desarrollo de APIs utilizando Node.js,
