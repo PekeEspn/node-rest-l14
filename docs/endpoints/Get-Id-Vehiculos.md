@@ -1,25 +1,27 @@
-# Endpoint: `POST /usuarios`
+
+# Endpoint: `GET /Vehiculos/[Id]`
 
 Permite añadir un nuevo registro en la tabla de usuarios
 
 ## Ejemplo de Solicitud
 ```http
-POST /usuarios
+GET /Vehiculos/4
 ```
 
-## Respuesta Exitosa (Código 201 OK)
+## Respuesta Exitosa (Código 200 OK)
 ```json
 [
     {
-        "id": 1,
-        "nombre": "Maria Lopez",
-        "Telefono": "987654321",
-        "email": "maria@example.com"
-        "direccion": "Avenida Principal 456"
+        "id_vehiculo": 1,
+        "id_usuaario": "2",
+        "marca": "Ford",
+        "Modelo": "Focus",
+        "año": "Focus",
+        "Placo": "LMN456"
     }
-     {
-    "status": 201,
-    "message": "Created"
+    {
+    "status":201,
+    "message": "created"
 }
 ]
 ```

@@ -1,10 +1,14 @@
+#Requisitos
+Para poder abrir el proyecto es necesario tener el docker descargado y inciado, se necesitara un editor de texto de tu prevferencia en mi caso utilice Visual Studio Code , así podras visualizar el codigo fuente , a la vez se ocupa un manejador de base de datos , y el postman para realizar tus pruebas de la API.
+
+
 Mi proyecto se centra en una aplicación donde te da asistencia mecánica , esta aplicación cuenta también con venta de carros y de autopartes , me gustaría hacer como un tipo mapa donde piques un botón y llegue el mecánico más cerca que esta de ti para poder darle servicio a tu carro.
 
 Este proyecto se me hace muy prometedor ya que para mi parecer no hay nada similar entonces tendría un buen impacto y respuesta si es que se logra popularizar.
 
 # API RESTful con Node.js
 
-Proyecto de demostración para clases de desarrollo de APIs utilizando Node.js,
+Proyecto de Evaluacion final de la especialidad de mi proyecto Geizel  para clases de desarrollo de APIs utilizando Node.js,
 con implementación en contenedores de Docker.
 
 ## Tabla de contenido

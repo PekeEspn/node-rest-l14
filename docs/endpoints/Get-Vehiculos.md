@@ -7,7 +7,7 @@ Permite obtener información sobre los Vehiculos.
 GET /Vehiculos
 ```
 
-## Respuesta Exitosa (Código 200 OK)
+## Respuesta Exitosa (Código 201 OK)
 ```json
 [
     {

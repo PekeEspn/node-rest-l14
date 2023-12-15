@@ -10,7 +10,7 @@ Permite obtener información sobre los detalles de las Ventas.
 GET /Ventas
 ```
 
-## Respuesta Exitosa (Código 200 OK)
+## Respuesta Exitosa (Código 201 OK)
 ```json
 [   {
     "id_venta":1,

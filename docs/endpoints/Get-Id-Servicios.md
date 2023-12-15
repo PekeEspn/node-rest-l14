@@ -1,13 +1,12 @@
-# Endpoint: `GET /Servicios`
-
-Permite obtener información sobre los usuarios.
+# Endpoint: `GET /Servicios/[id]`
+ Permite añadir un nuevo registro en la tabla de usuarios
 
 ## Ejemplo de Servicios
 ```http
-GET /Servicios
+GET /Servicios/4
 ```
 
-## Respuesta Exitosa (Código 201 OK)
+## Respuesta Exitosa (Código 200 OK)
 ```json
 [
     {
@@ -17,6 +16,12 @@ GET /Servicios
         "descripcion": "Fallo en los frenos delanterps",
         "fecha_solicitud": "2023-12-11T00:00:00.000z",
         "estado":"Pendiente"
+    }
+    {
+         {
+    "status": 201,
+    "message": "Created"
+}
     }
 ]
 ```

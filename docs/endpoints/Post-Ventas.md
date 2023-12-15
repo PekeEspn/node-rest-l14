@@ -11,7 +11,7 @@ Permite añadir un nuevo registro en la tabla de usuarios
 POST /Ventas
 ```
 
-## Respuesta Exitosa (Código 200 OK)
+## Respuesta Exitosa (Código 201 OK)
 ```json
 [   {
     "id_venta":1,

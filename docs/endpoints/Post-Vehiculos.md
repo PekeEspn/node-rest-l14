@@ -8,7 +8,7 @@ Permite añadir un nuevo registro en la tabla de usuarios
 POST /Vehiculos
 ```
 
-## Respuesta Exitosa (Código 200 OK)
+## Respuesta Exitosa (Código 201 OK)
 ```json
 [
     {
